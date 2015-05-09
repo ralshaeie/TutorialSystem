@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TutorialSystem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_courses">courses</string>
+    <string name="title_activity_b_courses">bCourses</string>
+    <string name="title_activity_e_courses">eCourses</string>
+    <string name="title_activity_a_courses">aCourses</string>
+    <string name="title_activity_c_courses">cCourses</string>
+    <string name="title_activity_i_information">iInformation</string>
+    <string name="title_activity_bil">BIL</string>
+    <string name="title_activity_n_information">nInformation</string>
+    <string name="title_activity_h_information">hInformation</string>
+    <string name="title_activity_m_information">mInformation</string>
+    <string name="title_activity_e_information">eInformation</string>
+    <string name="title_activity_ee_information">eeInformation</string>
+    <string name="title_activity_l_information">lInformation</string>
+    <string name="title_activity_o_information">oInformation</string>
+    <string name="title_activity_ooinformation">ooinformation</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:focusable="true"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select College"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="35dp"
+        android:textColor="#ffffff" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        android:id="@+id/bus"
+        android:background="@drawable/buttonsmall"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineering"
+        android:id="@+id/eng"
+        android:background="@drawable/buttonsmall"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/bus"
+        android:layout_alignStart="@+id/bus"
+        android:layout_marginTop="36dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arts &amp; Science"
+        android:id="@+id/as"
+        android:background="@drawable/buttonsmall"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/eng" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Engineering &amp; Science"
+        android:id="@+id/ces"
+        android:background="@drawable/buttonsmall"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:layout_below="@+id/eng"
+        android:layout_marginTop="36dp"
+        android:layout_alignStart="@+id/as"
+        android:layout_alignEnd="@+id/as" />
+
+</RelativeLayout>
+

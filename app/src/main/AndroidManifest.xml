@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noaimi.nada.tutorialsystem" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".bCourses"
+            android:label="Business Courses" >
+        </activity>
+        <activity
+            android:name=".eCourses"
+            android:label="Engineering Courses" >
+        </activity>
+        <activity
+            android:name=".aCourses"
+            android:label="Art and Sciences Courses" >
+        </activity>
+        <activity
+            android:name=".cCourses"
+            android:label="Computer Engineering and Science Courses" >
+        </activity>
+        <activity
+            android:name=".iInformation"
+            android:label="International Relation and Law Course" >
+        </activity>
+        <activity
+            android:name=".BIL"
+            android:label="Banking and Insurance Law Course" >
+        </activity>
+        <activity
+            android:name=".nInformation"
+            android:label="Network Security Course" >
+        </activity>
+        <activity
+            android:name=".hInformation"
+            android:label="Human Computer Interaction Course" >
+        </activity>
+        <activity
+            android:name=".mInformation"
+            android:label="Materials Engineering Course" >
+        </activity>
+        <activity
+            android:name=".eInformation"
+            android:label="Engineering Geology Course" >
+        </activity>
+        <activity
+            android:name=".eeInformation"
+            android:label="Engineering Economy Course" >
+        </activity>
+        <activity
+            android:name=".lInformation"
+            android:label="Legal Business Course" >
+        </activity>
+        <activity
+            android:name=".oInformation"
+            android:label="Organizational Behavior Course" >
+        </activity>
+        <activity
+            android:name=".ooinformation"
+            android:label="Operations Management Course" >
+        </activity>
+    </application>
+
+</manifest>
